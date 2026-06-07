@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Outfit:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700;800&display=swap');
 
 /* --- DESIGN TOKENS --- */
 :root {
@@ -24,8 +24,8 @@
   --gradient-coral: linear-gradient(135deg, #ff5577 0%, #7d152b 100%);
   
   /* Fonts */
-  --font-display: 'Outfit', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-display: 'Nunito Sans', sans-serif;
+  --font-body: 'Nunito Sans', sans-serif;
   
   /* Border Radii */
   --rounded-xs: 4px;
