@@ -1,0 +1,13 @@
+{
+  "name": "framer-design-portfolio",
+  "version": "1.0.0",
+  "description": "Framer-style dark canvas portfolio for Graphic Designer Đoàn Hoàng Thái.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
