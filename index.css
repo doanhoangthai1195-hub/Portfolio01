@@ -7,12 +7,12 @@
   --color-on-primary: #000000;
   --color-accent-blue: #0099ff;
   --color-ink: #ffffff;
-  --color-ink-muted: #999999;
-  --color-canvas: #090909;
-  --color-surface-1: #141414;
-  --color-surface-2: #1c1c1c;
-  --color-hairline: #262626;
-  --color-hairline-soft: #1a1a1a;
+  --color-ink-muted: #8ea8c3; /* A soft blue-gray for muted text to match dark blue */
+  --color-canvas: #040e1d;     /* Deep dark blue CV background */
+  --color-surface-1: #09172c;  /* Lighter dark blue for surface 1 */
+  --color-surface-2: #10243f;  /* Elevated surface 2 */
+  --color-hairline: #183354;   /* Dark blue borders */
+  --color-hairline-soft: #0c1f37;
   --color-inverse-canvas: #ffffff;
   --color-inverse-ink: #000000;
   --color-semantic-success: #22c55e;
@@ -85,8 +85,8 @@ body {
   right: 0;
   bottom: 0;
   background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+    linear-gradient(rgba(0, 153, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 153, 255, 0.04) 1px, transparent 1px);
   background-size: 50px 50px;
   background-position: center top;
   pointer-events: none;
