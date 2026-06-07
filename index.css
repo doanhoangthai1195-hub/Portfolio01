@@ -703,6 +703,42 @@ body {
   display: grid;
   grid-template-columns: 200px 1fr;
   gap: var(--spacing-xl);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Custom Gradients & Glows for Experience Cards */
+.experience-card.card-ts {
+  background: linear-gradient(135deg, var(--color-surface-2) 0%, var(--color-surface-1) 60%, rgba(255, 122, 61, 0.12) 100%);
+  border: 1px solid rgba(255, 122, 61, 0.18);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.experience-card.card-ts:hover {
+  border-color: rgba(255, 122, 61, 0.45);
+  box-shadow: 0 12px 30px rgba(255, 122, 61, 0.08), 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.experience-card.card-msg {
+  background: linear-gradient(135deg, var(--color-surface-2) 0%, var(--color-surface-1) 60%, rgba(106, 76, 245, 0.12) 100%);
+  border: 1px solid rgba(106, 76, 245, 0.18);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.experience-card.card-msg:hover {
+  border-color: rgba(106, 76, 245, 0.45);
+  box-shadow: 0 12px 30px rgba(106, 76, 245, 0.08), 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.experience-card.card-lc {
+  background: linear-gradient(135deg, var(--color-surface-2) 0%, var(--color-surface-1) 60%, rgba(0, 153, 255, 0.12) 100%);
+  border: 1px solid rgba(0, 153, 255, 0.18);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.experience-card.card-lc:hover {
+  border-color: rgba(0, 153, 255, 0.45);
+  box-shadow: 0 12px 30px rgba(0, 153, 255, 0.08), 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 .experience-time {
