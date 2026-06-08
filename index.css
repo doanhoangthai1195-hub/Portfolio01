@@ -327,8 +327,6 @@ body {
 }
 
 /* Handles on selected elements */
-.artboard-selectable.selected::before,
-.artboard-selectable.selected::after,
 .artboard-selectable.selected .handle-tl,
 .artboard-selectable.selected .handle-tr,
 .artboard-selectable.selected .handle-bl,
@@ -1186,7 +1184,7 @@ body {
 /* --- CONTACT CTA AREA --- */
 .contact-banner-card {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.1fr 0.9fr;
   gap: var(--spacing-xxl);
   align-items: center;
 }
